@@ -68,6 +68,8 @@ You will find 3 settings tabs
 
 ### Settings > Main
 
+<img width="400" src="admin/img/woo-table-list-settings-main.jpg" alt="Woo Table List Settings Options"/>
+
 
 - **Enable Woo Table List** : this activates the Woo Table List view for your shop
 - **Woo Table List default view**: set Woo Table List as default view
@@ -79,6 +81,10 @@ You will find 3 settings tabs
 
    
 ### Settings > Layout
+
+
+<img width="400" src="admin/img/woo-table-list-settings-layout.jpg" alt="Woo Table List Settings Layout"/>
+
 
 Use this section to define your table/list layout.
 
