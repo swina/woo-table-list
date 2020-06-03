@@ -1,8 +1,11 @@
 # Woo Table List
 
-Beta 1.0.0
+*Beta 1.0.0*
 
 Woo Table List is a WooCommerce plugin that adds a table list view to your online shop pages.
+
+Woo Table List has been tested with the following themes : **Astra** , **OceanWP**
+
 
 ### Requirements: 
 
@@ -42,8 +45,6 @@ Download ZIP file from this repository and install in a wordpress development en
 - Drag & Drop Fields order
 - Full Ajax Add to cart support
 - Responsive output
-
-## How to
 
 ## Settings
 Go to Woo Table List admin page
