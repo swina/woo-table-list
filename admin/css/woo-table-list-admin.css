@@ -1,0 +1,187 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.wtl_header {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.wtl_table_list_tabs {
+    font-size:1rem;
+    font-weight:600;
+    padding:.5rem;
+    text-decoration:none;
+    outline: none;
+    border:1px solid #cecece;
+    border-radius:.3rem;
+    margin-left:2rem; 
+    cursor:pointer;
+}
+
+.wtl_table_list_tabs_active {
+    background: rgb(28, 98, 179);
+    color:#fff;
+}
+
+ .wtl_table_list_tab {
+    display: none;
+}
+
+.tab_1 {
+    display: block;
+}
+
+.wtl_options_tabs > .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:0px solid #dedede;
+}
+
+.wtl_options_tabs > .menu > span {
+    cursor:pointer;
+    font-weight:600;
+    outline: none;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+.wtl_options_tabs > .menu > span:hover {
+    border-bottom:2px solid rgb(23, 91, 180);
+}
+
+.wtl_option_active {
+    font-weight:700;
+    border-bottom:2px solid rgb(23, 91, 180);
+    background:#f2f2f2;
+}
+
+.wtl_option_tab {
+    border-top:1px solid #ddd;
+    display: none;
+}
+
+.wtl_option_columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border:2px dashed rgb(78, 78, 78);
+}
+
+.wtl_col {
+    padding:1rem;
+    border:1px dotted #333333;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    cursor:move;
+}
+
+.wtl_col:hover {
+    background: rgb(107, 107, 107);
+}
+
+.wtl_col_field {
+    border:1px dashed rgb(37, 33, 33);
+    cursor:pointer;
+    margin:.2rem;
+    background:#a3e3e5;
+    padding:.3rem;
+    text-align:center;
+}
+
+.wtl_col_remove {
+    padding: 2rem;
+    border: 2px dashed #5d5858;
+    background: #f4e9e9;
+    border-top: 0;
+}
+
+.wtl-readme {
+    width:95%;
+    background: #fafafa;
+    padding:1rem;
+    border:1px solid #eaeaea;
+    border-radius:1rem;
+    margin-top:1rem;
+}
+
+.wtl_notice {
+    display:none;
+}
+
+#frmWooTableList , .wtl-features {
+    display:flex;
+    width:95%;
+    background: #fafafa;
+    padding:.5rem;
+    border:1px solid #eaeaea;
+    border-radius:1rem;
+    margin-top:1rem;
+}
+
+#frmWooTableList > div {
+    width:100%;
+}
+
+#frmWooTableList > div > div {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#frmWooTableList > div > div > label {
+    font-weight: 700;
+}
+#frmWooTableList > div > div > div > small {
+    color:#bbb;
+}
+
+.wtl-list > li {
+    margin-left:2rem;
+    list-style: disc; 
+}
+
+.wtl-list > li > ul {
+    margin-left: 2rem;
+    list-style: disc; 
+}
+
+.woo_options {
+    min-width:30%;
+}
+
+.woo_option_draggable {
+    border: 1px solid #3d3939;
+    padding:.5rem;
+    margin:.5rem;
+    cursor: move;
+    background:#a3e3e5;
+    display:inline-block;
+    text-align:center;
+    font-weight:700;
+    border-radius:.2rem;
+    min-width:5rem;
+}
+
+.woo_field {
+    margin: .5rem 0 .5rem 0;
+}
+
+.woo_field > label {
+    font-weight:600;
+}
+
+.woo_option_text_field {
+    margin-bottom:1rem;
+    display:flex;
+    flex-direction:column;
+    width:350px;
+}
+
+.woo_option_text_field > label {
+    font-weight:700;
+}
