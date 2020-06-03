@@ -1,3 +1,6 @@
+
+<img width="200" src="admin/img/woo-table-list.png" alt="Woo Table List"/>
+
 # Woo Table List
 
 *Beta 1.0.0*
@@ -5,6 +8,8 @@
 Woo Table List is a WooCommerce plugin that adds a table list view to your online shop pages.
 
 Woo Table List has been tested with the following themes : **Astra** , **OceanWP**
+
+
 
 
 ### Requirements: 
@@ -23,6 +28,17 @@ Download ZIP file from this repository and install in a wordpress development en
 
 **Woo Table List doesn't change or override any current template of your theme. It's based on JavaScript and CSS functionalities in order to manipulate the output to render a table like view.**
 
+## Output 
+
+**Shop Page**
+
+<img width="400" src="admin/img/woo-table-list-image-detail.jpg" alt="Woo Table List Astra Theme"/>
+
+
+**Variable Product Add To Cart Modal**
+
+
+<img width="400" src="admin/img/woo-table-list-image-variable-product.jpg" alt="Woo Table List Variable Product Modal"/>
 
 ## Features
 
